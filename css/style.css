@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+
+
+/* Global Css Start */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    max-width: 100%;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* Global Css End */
+
+
+/* header section code start */
+
+header{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px 0px;
+}
+/* header section code end */
+
+/* navbar code start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* navbar code end */
+.logo a img{
+    width: 150px;
+
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.menu ul li .singin{
+  background: green;
+  padding: 10px 18px;
+  border-radius: 33px;
+  color: azure;
+  font-family: 'Roboto';
+  font-size: 14px;
+
+
+}
+
+/* banner section part start  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.content, .banner-img{
+    flex-basis: 50%;
+
+}
+.content span{
+    color: red;
+    font-weight: 400;
+
+}
+
+
+
+.content h1{
+    width: 72%;
+    font-size: 48px;
+    line-height: 70px;
+    color: black;
+    font-weight: 700;
+
+
+}
+.content h1 span{
+    color: chartreuse;
+    font-weight: 700;
+} 
+
+.content p{
+    width: 72%;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+
+}
+.content a{
+  background: green;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 33px;
+  color: azure;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+
+.banner-img img{
+    width: 100%;
+
+}
+
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.feature .feature-inner{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.feature .feature-inner .box{  
+    background-color: beige;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    transition: ease;
+    transition: 0.5s;
+
+    
+}
+
+.feature .feature-inner .box:hover{  
+  /* box-shadow: 0px 20px 40px 0px black(10%);
+  transition: 0.5s; */
+  transition: 0.8s;
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 10%);
+
+  border: 1px solid #000;
+
+
+}
+
+.feature .feature-inner .box img{
+    width: 66px;
+    
+}
+
+.Courses-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.Courses-section .title{
+    text-align: center;
+    margin-bottom: 10px;
+    text-size: 20px;
+  
+}
+.Courses-section .courses-inner{
+    display: flex;
+    justify-content: space-evenly;
+  
+   
+}
+
+.Courses-section .courses-inner .box{
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+.Courses-section .courses-inner c-img img{
+    width: 331px;
+}
+
+.Courses-section .courses-inner a{
+
+  background: green;
+  padding: 05px 12px;
+  border-radius: 33px;
+  color: azure;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.Courses-section .c-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Courses-section .c-footer img{
+    width: 24px;
+}
+
+testimonial-section .content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.testimonial-section .content img{
+
+    width: 120px;
+    height: 120px;
+    margin-right: 50px;
+  
+    
+  
+  }
+  .testimonial-section .content p{
+  
+      font-size: 16px;
+      font-weight: 400;
+      width: 50%;
+      
+    
+  
+      
+    }
+
+    footer{
+        background-color: #282531;
+        color: #F0FFF0;
+      }
+    
+    
+    footer .container .flexbox {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 50px;
+    }
+    
+    footer .container .flexbox p{
+        width:33%;
+       
+    }
+    footer .container .flexbox li{
+        list-style-type: none;
+        padding-bottom: 5px;
+        font-size: 16px;
+        
+    }
+    
+    footer .container .flexbox h5{
+       
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 10px;
+    
+    }
+    footer .container  .copyright{
+       
+       text-align: center;
+       padding: 30px;
+    
+    }
+    
+    
+  
+
